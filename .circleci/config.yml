@@ -127,6 +127,11 @@ jobs:
             cd examples/vue-kitchen-sink
             yarn storybook --smoke-test
       - run:
+          name: "Run aurelia kitchen-sink (smoke test)"
+          command: |
+            cd examples/aurelia-kitchen-sink
+            yarn storybook --smoke-test
+      - run:
           name: "Run angular-cli (smoke test)"
           command: |
             cd examples/angular-cli

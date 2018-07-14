@@ -1,0 +1,45 @@
+{
+  "name": "@storybook/aurelia",
+  "version": "4.0.0-alpha.14",
+  "description": "Storybook for Aurelia: Develop Aurelia Component in isolation with Hot Reloading.",
+  "homepage": "https://github.com/storybooks/storybook/tree/master/apps/aurelia",
+  "bugs": {
+    "url": "https://github.com/storybooks/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybooks/storybook.git"
+  },
+  "license": "MIT",
+  "main": "dist/client/index.js",
+  "jsnext:main": "src/client/index.js",
+  "bin": {
+    "build-storybook": "./bin/build.js",
+    "start-storybook": "./bin/index.js",
+    "storybook-server": "./bin/index.js"
+  },
+  "scripts": {
+    "prepare": "node ../../scripts/prepare.js"
+  },
+  "dependencies": {
+    "@storybook/core": "4.0.0-alpha.14",
+    "common-tags": "^1.8.0",
+    "global": "^4.3.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "aurelia-animator-css": "^1.0.3",
+    "aurelia-binding": "^1.3.0",
+    "aurelia-bootstrapper": "^2.2.0",
+    "aurelia-framework": "^1.3.0",
+    "aurelia-pal-browser": "*",
+    "aurelia-templating-resources": "1.4.0",
+    "aurelia-validation": "^1.1.2"
+  },
+  "peerDependencies": {
+    "aurelia-bootstrapper-webpack": "^1.1.0",
+    "aurelia-loader-webpack": "*",
+    "aurelia-framework": "^1.3.0"
+  }
+}
